@@ -1,0 +1,9 @@
+name=list('perl')
+print(name)
+name[2:]=list('rrdsfshfshdfhuisdhfusuidfuisfgsg')
+print(name)
+numbers=[1,5]
+numbers[1:1]=[1,2,3,4,5,6]
+print(numbers)
+numbers[1:]=[]
+print(numbers)
