@@ -1,0 +1,17 @@
+"""
+Type a sentence  in  middle in a right wide .
+"""
+
+sentence = raw_input("Sentence:")
+
+screen_width =  80
+text_width =  len(sentence)
+box_width = text_width + 6
+left_margin = (screen_width - box_width) // 2
+print
+print  '+' + '-'*(screen_width-2)                     + '+'
+print  ' '*left_margin + '|' + ' ' * text_width       + '|'
+print  ' '*left_margin + '|' + sentence               + '|'
+print  ' '*left_margin + '|' + ' '*text_width         + '|'
+print  '+' + '-'*(screen_width-2)                     + '+'
+print
